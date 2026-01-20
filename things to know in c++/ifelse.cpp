@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+  
+int main(){
+  //useofifelse
+  cout<<"Enter a number: ";
+  int n; cin>>n;
+  if(n%2==0)cout<<"even";
+  else cout<<"odd";
+return 0;
+}
