@@ -1,1 +1,14 @@
 
+class Solution {
+public:
+    int largestElement(vector<int>& nums) {
+        int maxnum = nums[0];
+        for(int i = 1; i<nums.size();i++){
+            if(maxnum < nums[i]) maxnum =nums[i];
+        }
+    return maxnum;
+    }
+}
+
+one line code :(built in funtion)
+int maxElement = *max_element(arr, arr + n);
